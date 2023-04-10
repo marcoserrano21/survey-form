@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Help us improve the platform by completing a short survey!</p>
+  <form id="survey-form">
+    <label id="name-label">Enter your name: <input id="name" type="text" placeholder="Name" required /></label>
+    <label id="email-label">Enter your Email: <input id="email" type="email" placeholder="Email" required /></label> 
+    <label id="number-label">Enter your age: <input id="number" type="number" min="13" max="66" placeholder="Age"/>
+    <label>How did you hear about us?
+      <select id="dropdown" name="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Social Media</option>
+        <option value="2">Word of Mouth</option>
+    </label>
+    <label for="comments">Do you have any comments or suggestions?:
+      <textarea id="comments" rows="3" cols="30" placeholder="Comments..."></textarea>
+    </label>
+    <br>
+    <p>Would you recommend us to a friend?</p>
+    <label for="yes"><input id="yes" type="radio" name="no" value="yes" />Yes</label>
+    <label for="no"><input id="no" type="radio" name="no" value="no" />No</label>
+    <label for="improvement"> What would you like to improve?
+      <input id="ui-checkbox" type="checkbox" required name="improvement" value="ui"/> UI
+      <input id="improvement" type="checkbox" required name="improvement" value="ux"/> UX
+      <input id="improvement" type="checkbox" required name="improvement" value="everything" /> Everything else
+    </label>
+    <input id="submit" type="submit" value="Submit">
+  </form>
+</body>
+</html>
+  

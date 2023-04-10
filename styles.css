@@ -1,0 +1,100 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+h1, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+  /* Form styles */
+  #survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  #survey-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #survey-form input,
+  #survey-form select,
+  #survey-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    margin-top: 5px;
+  }
+  
+  #survey-form input:focus,
+  #survey-form select:focus,
+  #survey-form textarea:focus {
+    outline: none;
+    border-color: #666;
+  }
+  
+  #survey-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  #survey-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #survey-form p {
+    margin: 20px 0 10px;
+    font-size: 1.2em;
+  }
+  
+  #survey-form #title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #survey-form #description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Custom styles for specific form elements */
+  #name-label,
+  #email-label,
+  #number-label,
+  #comments-label {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  #survey-form input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 10px; /* Add margin between checkbox and label */
+  }
+  
